@@ -5,7 +5,9 @@
 @import "./base/_base.scss";
 
 // components 
+@import "./component/button";
 
 // layout 
-@import "./layout/header"
+@import "./layout/header";
+@import "./layout/book";
 // pages

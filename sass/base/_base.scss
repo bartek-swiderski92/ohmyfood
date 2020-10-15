@@ -2,19 +2,19 @@
     // font-family: 'Shrikhand', cursive;
 
 
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-html{
-    font-size: 62.5%;
-}
+    html {
+        font-size: 62.5%;
+    }
 
-body{
-    background-color: $bgc-body-clr;
-    font-family: 'Roboto', sans-serif;
-}
+    body {
+        background-color: $bgc;
+        font-family: 'Roboto', sans-serif;
+    }
