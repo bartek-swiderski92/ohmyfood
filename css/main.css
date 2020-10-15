@@ -1,9 +1,19 @@
 *,
 *::after,
 *::before {
-  margin: 0;
+  margin: 12px;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ddd;
+  width: 5%;
+  height: 200vh;
 }
 /*# sourceMappingURL=main.css.map */
