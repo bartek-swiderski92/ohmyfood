@@ -1,7 +1,17 @@
 *,
 *::after,
 *::before {
-    margin: 0;
+    margin: 12px;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: $bgc-body-clr;
+    width: 5%;
+    height: 200vh;
 }
