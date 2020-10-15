@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before {
-    margin: 12px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -12,6 +12,4 @@ html{
 
 body{
     background-color: $bgc-body-clr;
-    width: 5%;
-    height: 200vh;
 }
