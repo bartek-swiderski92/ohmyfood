@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__logo{
+        width: 100%;
+        background-color: $bgc;
+        box-shadow: 0 0 7px 0 #888;
+        z-index: 1;
+        img {
+            display: block;
+            margin: 2rem auto;
+
+        }
+    }
+    &__location{
+        width: 100%;
+        height: 6rem;
+        line-height: 6rem;
+        font-size: 2rem;
+        background-color: darken($bgc-body-clr, 4%);
+        text-align: center;
+        .fas {
+            margin-right: 2rem;
+        }
+    }
+}
