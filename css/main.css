@@ -16,6 +16,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
 .btn {
   display: block;
   height: 4rem;
@@ -109,6 +121,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 960px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -119,6 +133,13 @@ body {
   background-color: #eee;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+@media (min-width: 490px) {
+  .book {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 
 @media (min-width: 490px) {
@@ -173,12 +194,20 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 960px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin: 0 auto;
 }
 
+@media (min-width: 490px) {
+  .guide {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
 .guide__header {
-  font-size: 2.4rem;
-  margin: 4rem 2rem 2rem 2rem;
+  margin: 4rem 2rem 2rem 0;
 }
 
 .guide__steps {
@@ -197,9 +226,10 @@ body {
 
 .guide__step {
   position: relative;
-  width: calc(100% - 6rem);
+  width: calc(100% - 1rem);
   height: 6rem;
-  margin: 1rem 4rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
   background-color: #eee;
   border-radius: 2rem;
   font-size: 1.6rem;
@@ -249,6 +279,139 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 960px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin: 0 auto;
+  height: 123rem;
+  padding: 5rem 2rem;
+  background-color: #eee;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 490px) {
+  .restaurants {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.restaurants__header {
+  margin-bottom: 3rem;
+}
+
+.restaurants__wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.restaurants__restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: 25rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+
+.restaurants__restaurant-img {
+  height: 175px;
+  overflow: hidden;
+}
+
+.restaurants__restaurant-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.restaurants__restaurant-img #enchanted-plate-img {
+  -o-object-position: 0% 62%;
+     object-position: 0% 62%;
+}
+
+.restaurants__text {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5rem 2.5rem 0 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 2.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.restaurants__title--new {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: .8rem 2.6rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #278870;
+  background-color: #99E2D0;
+}
+
+.restaurants__name {
+  margin-bottom: .6rem;
+}
+
+.restaurants__heart {
+  font-size: 2.5rem;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.restaurants__heart .fas,
+.restaurants__heart .far {
+  position: absolute;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.restaurants__heart .far {
+  z-index: 1;
+}
+
+.restaurants__heart .fas {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #FF79DA), to(#9345DC));
+  background: linear-gradient(#FF79DA 1%, #9345DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+}
+
+.restaurants__heart .far:hover {
+  color: red;
+}
+
+.restaurants__heart .far:hover {
+  opacity: 0;
+}
+
+.restaurants__heart .far:hover + .fas {
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
