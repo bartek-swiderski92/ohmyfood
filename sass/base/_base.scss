@@ -18,8 +18,9 @@
         background-color: $bgc;
         font-family: 'Roboto', sans-serif;
     }
-    .site-wrapper{
-    }
+
+    .site-wrapper {}
+
     h2 {
         font-size: 2.4rem;
     }
@@ -30,4 +31,9 @@
 
     p {
         font-size: 1.6rem;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
     }
