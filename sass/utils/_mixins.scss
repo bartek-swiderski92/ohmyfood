@@ -1,0 +1,6 @@
+@mixin section-flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+    max-width: 960px;
+    margin: 0 auto;
+}

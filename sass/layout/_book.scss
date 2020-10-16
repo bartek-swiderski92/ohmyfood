@@ -1,11 +1,8 @@
 .book {
-    display: flex;
-    flex-direction: column;
+    @include section-flex(column);
     align-items: center;
     justify-content: space-around;
     height: 27rem;
-    max-width: 960px;
-    margin: 0 auto;
     background-color: $bgc-body-clr;
     padding-top: 3rem;
     padding-bottom: 3rem;
