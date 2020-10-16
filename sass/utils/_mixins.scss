@@ -2,5 +2,12 @@
     display: flex;
     flex-direction: $direction;
     max-width: 960px;
+    padding-left: $section-side-padding;
+    padding-right: $section-side-padding;
     margin: 0 auto;
+
+    @media (min-width: 490px) {
+        padding-left: $section-side-padding * 2;
+        padding-right: $section-side-padding * 2;
+    }
 }
