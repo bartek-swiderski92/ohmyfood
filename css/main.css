@@ -203,6 +203,10 @@ body {
 
 .guide__steps__step__number {
   position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-color: #9345DC;
   width: 2.5rem;
   height: 2.5rem;

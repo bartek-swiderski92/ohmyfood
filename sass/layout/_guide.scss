@@ -22,6 +22,9 @@
 
             &__number {
                 position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translate(-50%, -50%);
                 background-color: $primary-clr;
                 width: $number-size;
                 height: $number-size;
