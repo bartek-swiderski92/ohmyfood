@@ -83,7 +83,7 @@ body {
   height: 6rem;
   line-height: 6rem;
   font-size: 2rem;
-  background-color: lightgray;
+  background-color: #e4e4e4;
   text-align: center;
 }
 
@@ -116,7 +116,7 @@ body {
   height: 27rem;
   max-width: 960px;
   margin: 0 auto;
-  background-color: #ddd;
+  background-color: #eee;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -162,5 +162,54 @@ body {
   font-size: 1.8rem;
   text-align: center;
   margin: 0 5vh;
+}
+
+.guide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.guide__header {
+  font-size: 2.4rem;
+  margin: 4rem 2rem 2rem 2rem;
+}
+
+.guide__steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.guide__steps__step {
+  position: relative;
+  width: calc(100% - 4rem);
+  height: 6rem;
+  margin: 1rem 2rem;
+  background-color: #eee;
+  border-radius: 2rem;
+}
+
+.guide__steps__step__number {
+  position: absolute;
+  background-color: #9345DC;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
