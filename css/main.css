@@ -195,7 +195,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.guide__steps__step {
+.guide__step {
   position: relative;
   width: calc(100% - 6rem);
   height: 6rem;
@@ -208,7 +208,23 @@ body {
           box-shadow: 0 5px 5px #ddd;
 }
 
-.guide__steps__step__number {
+.guide__step .fas {
+  font-size: 2rem;
+  line-height: 6rem;
+  margin-left: 3rem;
+  margin-right: 2.5rem;
+  color: #6f6f6f;
+}
+
+.guide__step--highlight {
+  background-color: #F5EDFF;
+}
+
+.guide__step--highlight .fas {
+  color: #9345DC;
+}
+
+.guide__number {
   position: absolute;
   top: 50%;
   left: 0;
@@ -222,21 +238,5 @@ body {
   color: white;
   font-size: 1.4rem;
   border-radius: 50%;
-}
-
-.guide__steps__step .fas {
-  font-size: 2rem;
-  line-height: 6rem;
-  margin-left: 3rem;
-  margin-right: 2.5rem;
-  color: #6f6f6f;
-}
-
-.guide__steps__step--highlight {
-  background-color: #F5EDFF;
-}
-
-.guide__steps__step--highlight .fas {
-  color: #9345DC;
 }
 /*# sourceMappingURL=main.css.map */
