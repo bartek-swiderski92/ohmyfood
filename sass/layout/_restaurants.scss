@@ -11,10 +11,28 @@
 
     &__load-animation {}
 
+    @media(min-width: 550px) {
+        height: 70rem;
+        padding-left: $section-side-padding;
+        padding-right: $section-side-padding;
+    }
+
+    @media(min-width: 800px) {
+        padding-left: $section-side-padding * 2;
+        padding-right: $section-side-padding * 2;
+    }
+
     &__wrapper {
         height: 100%;
         display: flex;
         flex-direction: column;
+
+        @media(min-width: 550px) {
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
     }
 
     &__restaurant {
@@ -25,6 +43,12 @@
         margin-bottom: 2rem;
         border-radius: 2rem;
         background-color: $bgc;
+
+        @media(min-width: 550px) {
+            max-width: 47%;
+            min-width: 245px;
+            margin-bottom: 4rem;
+        }
     }
 
     &__restaurant-img {
