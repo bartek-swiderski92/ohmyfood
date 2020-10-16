@@ -363,7 +363,7 @@ a {
 
 @media (min-width: 550px) {
   .restaurants__restaurant {
-    max-width: 47%;
+    width: 47%;
     min-width: 245px;
     margin-bottom: 4rem;
   }
