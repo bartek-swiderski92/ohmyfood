@@ -8,7 +8,8 @@
         "../sass/component/_button.scss",
         "../sass/layout/_header.scss",
         "../sass/layout/_book.scss",
-        "../sass/layout/_guide.scss"
+        "../sass/layout/_guide.scss",
+        "../sass/layout/_restaurants.scss"
     ],
     "names": [],
     "file": "main.css"
