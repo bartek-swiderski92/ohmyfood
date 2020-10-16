@@ -121,6 +121,16 @@ body {
   padding-bottom: 3rem;
 }
 
+@media (min-width: 490px) {
+  .book {
+    height: 15rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
 @media (min-width: 800px) {
   .book {
     -ms-flex-wrap: wrap;
