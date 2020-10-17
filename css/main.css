@@ -543,6 +543,12 @@ ul {
           transform-origin: left;
 }
 
+.menu--wrapper {
+  background-color: #eee;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -560,7 +566,7 @@ ul {
   border-top-left-radius: 5rem;
   border-top-right-radius: 5rem;
   padding-top: 3rem;
-  padding-bottom: 8rem;
+  padding-bottom: 3rem;
   background-color: #eee;
 }
 
@@ -743,5 +749,10 @@ ul {
 
 .bgc__img img {
   width: 100%;
+  max-height: 45rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 /*# sourceMappingURL=main.css.map */

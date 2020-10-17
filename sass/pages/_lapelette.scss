@@ -14,7 +14,11 @@
 .bgc {
     &__img {
         img {
-            width: 100%
+            width: 100%;
+            max-height: 45rem;
+            object-fit: cover;
+            object-position: bottom;
+
         }
     }
 }
