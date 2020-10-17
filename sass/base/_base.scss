@@ -19,7 +19,12 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    .site-wrapper {}
+    .site-wrapper {
+        border-right: 1px solid $bgc-body-clr;
+        border-left: 1px solid $bgc-body-clr;
+        width: 960px;
+        margin: 0 auto;
+    }
 
     h2 {
         font-size: 2.4rem;
