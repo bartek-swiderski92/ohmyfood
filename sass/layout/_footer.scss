@@ -1,0 +1,42 @@
+.footer {
+    // @include section-flex(column);
+    background-color: #333;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 100%;
+
+    &__wrapper {
+        @include section-flex(column);
+        max-width: 800px;
+
+        @media (min-width:550px) {
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 3.5rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    &__logo {
+        font-family: 'Shrikhand', cursive;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__li {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+
+        .fas {
+            font-size: 1.3rem;
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__li:nth-of-type(2)>.fas {
+        margin-right: 1rem;
+        transform: scaleX(0.7);
+        transform-origin: left;
+    }
+}
