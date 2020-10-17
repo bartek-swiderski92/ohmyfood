@@ -616,6 +616,10 @@ ul {
   margin-bottom: 5rem;
 }
 
+.course {
+  margin-bottom: 5rem;
+}
+
 .course__name {
   font-weight: normal;
   text-transform: uppercase;
@@ -730,5 +734,13 @@ ul {
      object-fit: cover;
   -o-object-position: bottom;
      object-position: bottom;
+}
+
+#enchanted-plate-menu {
+  min-height: 250px;
+  height: 37vh;
+  -o-object-position: 0% 50%;
+     object-position: 0% 50%;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
