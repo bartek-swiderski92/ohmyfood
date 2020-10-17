@@ -1,7 +1,6 @@
     // font-family: 'Roboto', sans-serif;
     // font-family: 'Shrikhand', cursive;
 
-
     *,
     *::after,
     *::before {
@@ -17,13 +16,6 @@
     body {
         background-color: $bgc;
         font-family: 'Roboto', sans-serif;
-    }
-
-    .site-wrapper {
-        border-right: 1px solid $bgc-body-clr;
-        border-left: 1px solid $bgc-body-clr;
-        width: 960px;
-        margin: 0 auto;
     }
 
     h2 {
