@@ -656,8 +656,7 @@ ul {
 }
 
 .course__dish:hover .course__dish-price {
-  -webkit-transform: translateX(-6rem);
-          transform: translateX(-6rem);
+  margin-right: 6rem;
 }
 
 .course__dish:hover .course__dish-added {
@@ -677,6 +676,9 @@ ul {
 
 .course__dish-details {
   font-size: 1.6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .course__dish-price {
@@ -687,6 +689,7 @@ ul {
   justify-self: flex-end;
   -webkit-transition: .5s;
   transition: .5s;
+  height: 100%;
 }
 
 .course__dish-added {

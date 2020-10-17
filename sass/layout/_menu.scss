@@ -90,7 +90,7 @@
         overflow: hidden;
 
         &:hover .course__dish-price {
-            transform: translateX(-6rem);
+            margin-right: 6rem;
         }
 
         &:hover .course__dish-added {
@@ -106,9 +106,12 @@
         font-size: 1.8rem;
         margin-bottom: 1rem;
     }
-
+    // wraping over to the next line
     &__dish-details {
         font-size: 1.6rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     &__dish-price {
@@ -117,6 +120,7 @@
         align-self: flex-end;
         justify-self: flex-end;
         transition: .5s;
+        height: 100%;
     }
 
     &__dish-added {
