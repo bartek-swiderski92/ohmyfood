@@ -97,42 +97,4 @@
     &__name {
         margin-bottom: .6rem;
     }
-
-    &__heart {
-        font-size: 2.5rem;
-        align-self: start;
-
-
-        .fas,
-        .far {
-            position: absolute;
-            right: 2rem;
-            cursor: pointer;
-            transition: .3s;
-        }
-
-        .far {
-            z-index: 1;
-        }
-
-        .fas {
-            background: linear-gradient($secondary-clr 1%, $primary-clr);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            opacity: 0;
-        }
-
-        .far:hover {
-            color: red;
-        }
-
-        .far:hover {
-            opacity: 0;
-        }
-
-        .far:hover+.fas {
-            opacity: 1;
-        }
-    }
 }

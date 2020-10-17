@@ -32,41 +32,11 @@
     }
 
     &__heart {
-        font-size: 2.5rem;
-        align-self: start;
 
-
-        .fas,
-        .far {
+        .fas.fa-heart,
+        .far.fa-heart {
             margin-top: .4rem;
-            position: absolute;
             right: 3.5rem;
-            cursor: pointer;
-            transition: .3s;
-        }
-
-        .far {
-            z-index: 1;
-        }
-
-        .fas {
-            background: linear-gradient($secondary-clr 1%, $primary-clr);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            opacity: 0;
-        }
-
-        .far:hover {
-            color: red;
-        }
-
-        .far:hover {
-            opacity: 0;
-        }
-
-        .far:hover+.fas {
-            opacity: 1;
         }
     }
 }
