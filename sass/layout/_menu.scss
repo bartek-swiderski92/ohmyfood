@@ -5,7 +5,13 @@
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
     padding-top: 3rem;
+    padding-bottom: 8rem;
     background-color: $bgc-body-clr;
+
+    &__btn-order {
+        width: 19rem;
+        margin: 0 auto;
+    }
 }
 
 .restaurant-name {
@@ -58,7 +64,9 @@
     }
 }
 
-.courses {}
+.courses {
+    margin-bottom: 5rem;
+}
 
 .course {
     &__name {
@@ -106,6 +114,7 @@
         font-size: 1.8rem;
         margin-bottom: 1rem;
     }
+
     // wraping over to the next line
     &__dish-details {
         font-size: 1.6rem;
@@ -145,4 +154,5 @@
             transition: .5s;
         }
     }
+
 }

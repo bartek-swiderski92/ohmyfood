@@ -45,13 +45,14 @@ ul {
   display: block;
   height: 4rem;
   line-height: 4rem;
+  padding: 0 2rem;
   font-size: 1.4rem;
+  text-align: center;
   border-radius: 2rem;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #FF79DA), to(#9345DC));
   background-image: linear-gradient(#FF79DA 1%, #9345DC);
   color: white;
   text-decoration: none;
-  padding: 0 2rem;
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -559,6 +560,7 @@ ul {
   border-top-left-radius: 5rem;
   border-top-right-radius: 5rem;
   padding-top: 3rem;
+  padding-bottom: 8rem;
   background-color: #eee;
 }
 
@@ -567,6 +569,11 @@ ul {
     padding-left: 4rem;
     padding-right: 4rem;
   }
+}
+
+.menu__btn-order {
+  width: 19rem;
+  margin: 0 auto;
 }
 
 .restaurant-name {
@@ -621,6 +628,10 @@ ul {
 
 .restaurant-name__heart .far:hover + .fas {
   opacity: 1;
+}
+
+.courses {
+  margin-bottom: 5rem;
 }
 
 .course__name {
