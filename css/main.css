@@ -548,4 +548,8 @@ ul {
   line-height: 6.7rem;
   margin-left: 2.5rem;
 }
+
+.bgc__img img {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
