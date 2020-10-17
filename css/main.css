@@ -55,6 +55,13 @@ ul {
   color: white;
   text-decoration: none;
   padding: 0 2rem;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.btn:hover {
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
 }
 
 .header {
