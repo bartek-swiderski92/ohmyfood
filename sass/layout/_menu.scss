@@ -1,3 +1,9 @@
+.menu--wrapper {
+    background-color: $bgc-body-clr;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .menu {
     @include section-flex(column);
     position: relative;
@@ -5,7 +11,7 @@
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
     padding-top: 3rem;
-    padding-bottom: 8rem;
+    padding-bottom: 3rem;
     background-color: $bgc-body-clr;
 
     &__btn-order {
