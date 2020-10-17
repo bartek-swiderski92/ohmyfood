@@ -1,0 +1,144 @@
+.menu {
+    @include section-flex(column);
+    position: relative;
+    top: -50px;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    padding-top: 3rem;
+    background-color: $bgc-body-clr;
+}
+
+.restaurant-name {
+    display: flex;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+
+    &__header {
+        font-family: 'Shrikhand', cursive;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+
+    &__heart {
+        font-size: 2.5rem;
+        align-self: start;
+
+
+        .fas,
+        .far {
+            margin-top: .4rem;
+            position: absolute;
+            right: 3.5rem;
+            cursor: pointer;
+        }
+
+        .far {
+            z-index: 1;
+        }
+
+        .fas {
+            background: linear-gradient($secondary-clr 1%, $primary-clr);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            opacity: 0;
+        }
+
+        .far:hover {
+            color: red;
+        }
+
+        .far:hover {
+            opacity: 0;
+        }
+
+        .far:hover+.fas {
+            opacity: 1;
+        }
+    }
+}
+
+.courses {}
+
+.course {
+    &__name {
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+
+        &::after {
+            content: "";
+            width: 4rem;
+            border-bottom: 3px solid $tertiary-clr;
+            display: block;
+            margin-top: .3rem;
+        }
+    }
+
+    &__dish {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background-color: $bgc;
+        margin-bottom: 1rem;
+        border-radius: 1.5rem;
+        padding: 1rem 2rem 1rem 1rem;
+        cursor: pointer;
+
+        overflow: hidden;
+
+        &:hover .course__dish-price {
+            transform: translateX(-6rem);
+        }
+
+        &:hover .course__dish-added {
+            transform: translateX(0);
+        }
+
+        &:hover .fa-check-circle {
+            transform: translate(-50%, -50%) rotate(360deg);
+        }
+    }
+
+    &__dish-name {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    &__dish-details {
+        font-size: 1.6rem;
+    }
+
+    &__dish-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        align-self: flex-end;
+        justify-self: flex-end;
+        transition: .5s;
+    }
+
+    &__dish-added {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 6rem;
+        height: 100%;
+        transform: translateX(100%);
+        transition: .5s;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        background-color: $tertiary-clr;
+
+        .fa-check-circle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2.2rem;
+            color: #fff;
+            transition: .5s;
+        }
+    }
+}

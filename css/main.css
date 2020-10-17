@@ -24,6 +24,10 @@ h3 {
   font-size: 1.8rem;
 }
 
+h4 {
+  font-size: 1.6rem;
+}
+
 p {
   font-size: 1.6rem;
 }
@@ -536,6 +540,180 @@ ul {
           transform: scaleX(0.7);
   -webkit-transform-origin: left;
           transform-origin: left;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 960px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  padding-top: 3rem;
+  background-color: #eee;
+}
+
+@media (min-width: 490px) {
+  .menu {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.restaurant-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 5rem;
+  margin-bottom: 1rem;
+}
+
+.restaurant-name__header {
+  font-family: 'Shrikhand', cursive;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.restaurant-name__heart {
+  font-size: 2.5rem;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.restaurant-name__heart .fas,
+.restaurant-name__heart .far {
+  margin-top: .4rem;
+  position: absolute;
+  right: 3.5rem;
+  cursor: pointer;
+}
+
+.restaurant-name__heart .far {
+  z-index: 1;
+}
+
+.restaurant-name__heart .fas {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #FF79DA), to(#9345DC));
+  background: linear-gradient(#FF79DA 1%, #9345DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+}
+
+.restaurant-name__heart .far:hover {
+  color: red;
+}
+
+.restaurant-name__heart .far:hover {
+  opacity: 0;
+}
+
+.restaurant-name__heart .far:hover + .fas {
+  opacity: 1;
+}
+
+.course__name {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.course__name::after {
+  content: "";
+  width: 4rem;
+  border-bottom: 3px solid #99E2D0;
+  display: block;
+  margin-top: .3rem;
+}
+
+.course__dish {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem 1rem 1rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.course__dish:hover .course__dish-price {
+  -webkit-transform: translateX(-6rem);
+          transform: translateX(-6rem);
+}
+
+.course__dish:hover .course__dish-added {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.course__dish:hover .fa-check-circle {
+  -webkit-transform: translate(-50%, -50%) rotate(360deg);
+          transform: translate(-50%, -50%) rotate(360deg);
+}
+
+.course__dish-name {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.course__dish-details {
+  font-size: 1.6rem;
+}
+
+.course__dish-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-end;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.course__dish-added {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 6rem;
+  height: 100%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  background-color: #99E2D0;
+}
+
+.course__dish-added .fa-check-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 2.2rem;
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .header__logo {
