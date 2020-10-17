@@ -668,17 +668,19 @@ ul {
 
 .course__dish-name {
   font-size: 1.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: .3rem;
 }
 
 .course__dish-details {
   font-size: 1.6rem;
+  margin-bottom: .3rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .course__dish-price {
+  margin-bottom: .6rem;
   font-size: 1.5rem;
   font-weight: bold;
   -ms-flex-item-align: end;

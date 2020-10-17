@@ -91,18 +91,20 @@
 
     &__dish-name {
         font-size: 1.8rem;
-        margin-bottom: 1rem;
+        margin-bottom: .3rem;
     }
 
     // wraping over to the next line
     &__dish-details {
         font-size: 1.6rem;
+        margin-bottom: .3rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
     &__dish-price {
+        margin-bottom: .6rem;
         font-size: 1.5rem;
         font-weight: bold;
         align-self: flex-end;
