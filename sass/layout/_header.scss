@@ -36,6 +36,7 @@
         font-size: 2rem;
         background-color: darken($bgc-body-clr, 4%);
         text-align: center;
+        cursor: pointer;
 
         @media (min-width: 800px) {
             max-width: 325px;
