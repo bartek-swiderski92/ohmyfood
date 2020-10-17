@@ -22,11 +22,14 @@
         font-family: 'Shrikhand', cursive;
         font-size: 1.8rem;
         margin-bottom: 1.5rem;
+        cursor: pointer;
     }
 
     &__li {
         font-size: 1.5rem;
         margin-bottom: 1rem;
+        cursor: pointer;
+
 
         .fas {
             font-size: 1.3rem;
