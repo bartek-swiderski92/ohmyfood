@@ -1,0 +1,12 @@
+.header {
+    &__logo {
+        position: relative;
+
+        .fa-arrow-left {
+            position: absolute;
+            font-size: 2rem;
+            line-height: 6.7rem;
+            margin-left: 2.5rem;
+        }
+    }
+}

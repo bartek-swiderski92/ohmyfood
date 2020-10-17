@@ -16,13 +16,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.site-wrapper {
-  border-right: 1px solid #eee;
-  border-left: 1px solid #eee;
-  width: 960px;
-  margin: 0 auto;
-}
-
 h2 {
   font-size: 2.4rem;
 }
@@ -84,12 +77,13 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 7.4rem;
+    height: 6rem;
   }
 }
 
 .header__logo {
   width: 100%;
+  height: 6rem;
   background-color: #fff;
   -webkit-box-shadow: 0 0 7px 0 #888;
           box-shadow: 0 0 7px 0 #888;
@@ -105,6 +99,7 @@ ul {
 .header__logo img {
   display: block;
   margin: 2rem auto;
+  width: 160px;
 }
 
 @media (min-width: 800px) {
@@ -126,7 +121,7 @@ ul {
 @media (min-width: 800px) {
   .header__location {
     max-width: 325px;
-    height: 100%;
+    height: 6rem;
     -webkit-box-shadow: 0 0 7px 0 #888;
             box-shadow: 0 0 7px 0 #888;
   }
@@ -541,5 +536,16 @@ ul {
           transform: scaleX(0.7);
   -webkit-transform-origin: left;
           transform-origin: left;
+}
+
+.header__logo {
+  position: relative;
+}
+
+.header__logo .fa-arrow-left {
+  position: absolute;
+  font-size: 2rem;
+  line-height: 6.7rem;
+  margin-left: 2.5rem;
 }
 /*# sourceMappingURL=main.css.map */
