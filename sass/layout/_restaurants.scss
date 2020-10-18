@@ -11,20 +11,6 @@
 
     }
 
-    // &__load-animation {
-    //     position: absolute;
-    //     top: 50%;
-    //     left: 50%;
-    //     transition: 3s linear;
-    //     // transform: translate(-50%, -50%) rotate(0) scale(5);
-    //     opacity: 1;
-    //     z-index: 1;
-
-    //     &:hover {
-    //         transform: translate(-50%, -50%) rotate(1800deg) scale(5);
-    //     }
-    // }
-
     @media(min-width: 550px) {
         height: 70rem;
         padding-left: $section-side-padding;
@@ -45,7 +31,6 @@
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: space-between;
-
         }
     }
 
@@ -105,9 +90,7 @@
     &__text {
         height: 60px;
         display: flex;
-        // padding: 1.5rem 2.5rem 0 1.5rem;
         margin: 1.5rem 2.5rem 0 1.5rem;
-        // padding-top: 1.5rem;
         margin-left: 1.5rem;
         margin-right: 2.5rem;
         justify-content: space-between;

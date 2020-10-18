@@ -3,7 +3,6 @@
     max-width: 960px;
     margin: 0 auto;
     overflow: hidden;
-
 }
 
 .menu {
@@ -42,8 +41,6 @@
         }
     }
 }
-
-.courses {}
 
 .course {
     margin-bottom: 5rem;
@@ -157,8 +154,6 @@
         }
     }
 
-
-
     &__dish-name {
         font-size: 1.8rem;
         margin-bottom: .3rem;
@@ -167,7 +162,6 @@
         text-overflow: unset
     }
 
-    // wraping over to the next line
     &__dish-details {
         font-size: 1.6rem;
         margin-bottom: .3rem;
@@ -184,7 +178,6 @@
         justify-self: flex-end;
         transition: .5s;
         height: 100%;
-
     }
 
     &__dish-added {
@@ -209,5 +202,4 @@
             transition: .5s;
         }
     }
-
 }
