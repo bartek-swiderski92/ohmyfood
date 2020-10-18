@@ -589,7 +589,7 @@ ul {
 .guide__step {
   position: relative;
   width: calc(100% - 1rem);
-  height: 6rem;
+  height: 8rem;
   margin-top: 2rem;
   margin-left: 1rem;
   background-color: #eee;
@@ -600,9 +600,17 @@ ul {
           box-shadow: 0 5px 5px #ddd;
 }
 
+.guide__step-text {
+  position: absolute;
+  top: 50%;
+  left: 7.6rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 .guide__step .fas {
   font-size: 2rem;
-  line-height: 6rem;
+  line-height: 8rem;
   margin-left: 3rem;
   margin-right: 2.5rem;
   color: #6f6f6f;
