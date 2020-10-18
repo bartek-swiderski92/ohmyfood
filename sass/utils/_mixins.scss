@@ -11,3 +11,7 @@
         padding-right: $section-side-padding * 2;
     }
 }
+
+@mixin boxshadow($size: 5px, $color: #ddd) {
+    box-shadow: 0 5px $size $color;
+}

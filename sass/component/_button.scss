@@ -10,8 +10,11 @@
     color: white;
     text-decoration: none;
     transition: .2s;
+    @include boxshadow;
 }
 
 .btn:hover {
     filter: brightness(110%);
+    @include boxshadow(8px, #aaa);
+
 }
