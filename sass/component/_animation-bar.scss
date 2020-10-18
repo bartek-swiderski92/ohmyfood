@@ -1,12 +1,16 @@
 .load-animation {
     position: absolute;
-    top: 50%;
+    top: 15%;
     left: 50%;
     display: flex;
     align-items: center;
     transform: translate(-50%, -50%);
     opacity: 1;
     animation: opacity .2s 3s 1 linear forwards;
+
+    @media (min-width: 550px) {
+        top: 30%
+    }
 }
 
 .animation-bar {

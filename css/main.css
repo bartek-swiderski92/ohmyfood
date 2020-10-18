@@ -285,7 +285,7 @@ ul {
 
 .load-animation {
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -298,6 +298,12 @@ ul {
   opacity: 1;
   -webkit-animation: opacity .2s 3s 1 linear forwards;
           animation: opacity .2s 3s 1 linear forwards;
+}
+
+@media (min-width: 550px) {
+  .load-animation {
+    top: 30%;
+  }
 }
 
 .animation-bar {
