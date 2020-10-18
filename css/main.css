@@ -231,11 +231,15 @@ ul {
   text-decoration: none;
   -webkit-transition: .2s;
   transition: .2s;
+  -webkit-box-shadow: 0 5px 5px #ddd;
+          box-shadow: 0 5px 5px #ddd;
 }
 
 .btn:hover {
   -webkit-filter: brightness(110%);
           filter: brightness(110%);
+  -webkit-box-shadow: 0 5px 8px #aaa;
+          box-shadow: 0 5px 8px #aaa;
 }
 
 .heart {
@@ -725,6 +729,8 @@ ul {
   margin-bottom: 2rem;
   border-radius: 2rem;
   background-color: #fff;
+  -webkit-box-shadow: 0 5px 5px #ddd;
+          box-shadow: 0 5px 5px #ddd;
   animation: opacity .4s 3s 1 linear backwards reverse;
 }
 
@@ -983,6 +989,8 @@ ul {
   margin-bottom: 1rem;
   border-radius: 1.5rem;
   padding: 1.3rem 2rem 1rem 1.3rem;
+  -webkit-box-shadow: 0 5px 5px #ddd;
+          box-shadow: 0 5px 5px #ddd;
   cursor: pointer;
   overflow: hidden;
   -webkit-animation: vertical-slide .5s backwards;

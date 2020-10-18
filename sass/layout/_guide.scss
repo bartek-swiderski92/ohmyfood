@@ -22,7 +22,7 @@
         border-radius: 2rem;
         font-size: 1.6rem;
         font-weight: bold;
-        box-shadow: 0 5px 5px #ddd;
+        @include boxshadow;
 
         &-text {
             position: absolute;
