@@ -2,6 +2,8 @@
     background-color: $bgc-body-clr;
     max-width: 960px;
     margin: 0 auto;
+    overflow: hidden;
+
 }
 
 .menu {
@@ -45,6 +47,19 @@
 
 .course {
     margin-bottom: 5rem;
+    animation: side-slide 1s backwards;
+
+    &:nth-child(1) {
+        animation-delay: $course-animation-delay;
+    }
+
+    &:nth-child(2) {
+        animation-delay: $course-animation-delay * 3;
+    }
+
+    &:nth-child(3) {
+        animation-delay: $course-animation-delay * 5
+    }
 
     &__name {
         font-weight: normal;
@@ -71,8 +86,63 @@
         border-radius: 1.5rem;
         padding: 1rem 2rem 1rem 1rem;
         cursor: pointer;
-
         overflow: hidden;
+        animation: vertical-slide .5s backwards;
+
+        &--animation-entrees {
+            &:nth-of-type(1) {
+                animation-delay: $course-animation-delay * 6
+            }
+
+            &:nth-of-type(2) {
+                animation-delay: $course-animation-delay * 7
+            }
+
+            &:nth-of-type(3) {
+                animation-delay: $course-animation-delay * 8
+            }
+
+            &:nth-of-type(4) {
+                animation-delay: $course-animation-delay * 9
+            }
+        }
+
+        &--animation-main-dish {
+            &:nth-of-type(1) {
+                animation-delay: $course-animation-delay * 10
+            }
+
+            &:nth-of-type(2) {
+                animation-delay: $course-animation-delay * 11
+            }
+
+            &:nth-of-type(3) {
+                animation-delay: $course-animation-delay * 12
+            }
+
+            &:nth-of-type(4) {
+                animation-delay: $course-animation-delay * 13
+            }
+        }
+
+        &--animation-dessert {
+            &:nth-of-type(1) {
+                animation-delay: $course-animation-delay * 14
+            }
+
+            &:nth-of-type(2) {
+                animation-delay: $course-animation-delay * 15
+            }
+
+            &:nth-of-type(3) {
+                animation-delay: $course-animation-delay * 16
+            }
+
+            &:nth-of-type(4) {
+                animation-delay: $course-animation-delay * 17
+            }
+        }
+
 
         &:hover .course__dish-price {
             margin-right: 6rem;
@@ -86,6 +156,8 @@
             transform: translate(-50%, -50%) rotate(360deg);
         }
     }
+
+
 
     &__dish-name {
         font-size: 1.8rem;
