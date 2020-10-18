@@ -1,1 +1,55 @@
-@keyframes spinner {}
+@keyframes loading-bar {
+    0% {
+        transform: scaleY(1);
+    }
+
+    10% {
+        transform: scaleY(2);
+    }
+
+    20% {
+        transform: scaleY(.7);
+    }
+
+    30% {
+        transform: scaleY(2);
+    }
+
+    40% {
+        transform: scaleY(.3);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+
+    60% {
+        transform: scaleY(2);
+    }
+
+    70% {
+        transform: scaleY(.7);
+    }
+
+    80% {
+        transform: scaleY(2);
+    }
+
+    90% {
+        transform: scaleY(.3);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}

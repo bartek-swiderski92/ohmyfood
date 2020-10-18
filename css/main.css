@@ -1,3 +1,115 @@
+@-webkit-keyframes loading-bar {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  10% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  20% {
+    -webkit-transform: scaleY(0.7);
+            transform: scaleY(0.7);
+  }
+  30% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  40% {
+    -webkit-transform: scaleY(0.3);
+            transform: scaleY(0.3);
+  }
+  50% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  60% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  70% {
+    -webkit-transform: scaleY(0.7);
+            transform: scaleY(0.7);
+  }
+  80% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  90% {
+    -webkit-transform: scaleY(0.3);
+            transform: scaleY(0.3);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes loading-bar {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  10% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  20% {
+    -webkit-transform: scaleY(0.7);
+            transform: scaleY(0.7);
+  }
+  30% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  40% {
+    -webkit-transform: scaleY(0.3);
+            transform: scaleY(0.3);
+  }
+  50% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  60% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  70% {
+    -webkit-transform: scaleY(0.7);
+            transform: scaleY(0.7);
+  }
+  80% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  90% {
+    -webkit-transform: scaleY(0.3);
+            transform: scaleY(0.3);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 *,
 *::after,
 *::before {
@@ -101,6 +213,122 @@ ul {
 
 .heart .far.fa-heart:hover + .fas {
   opacity: 1;
+}
+
+.load-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 1;
+  -webkit-animation: opacity .2s 3s 1 linear forwards;
+          animation: opacity .2s 3s 1 linear forwards;
+}
+
+.animation-bar {
+  background-color: #999;
+  width: 5px;
+  margin: 4px;
+  -webkit-animation: loading-bar 3s 1 linear;
+          animation: loading-bar 3s 1 linear;
+}
+
+.animation-bar:nth-child(1) {
+  -webkit-animation-delay: .05s;
+          animation-delay: .05s;
+}
+
+.animation-bar:nth-child(2) {
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+
+.animation-bar:nth-child(3) {
+  -webkit-animation-delay: .15s;
+          animation-delay: .15s;
+}
+
+.animation-bar:nth-child(4) {
+  -webkit-animation-delay: .20s;
+          animation-delay: .20s;
+}
+
+.animation-bar:nth-child(5) {
+  -webkit-animation-delay: .25s;
+          animation-delay: .25s;
+}
+
+.animation-bar:nth-child(6) {
+  -webkit-animation-delay: .30s;
+          animation-delay: .30s;
+}
+
+.animation-bar:nth-child(7) {
+  -webkit-animation-delay: .35s;
+          animation-delay: .35s;
+}
+
+.animation-bar:nth-child(8) {
+  -webkit-animation-delay: .40s;
+          animation-delay: .40s;
+}
+
+.animation-bar:nth-child(9) {
+  -webkit-animation-delay: .45s;
+          animation-delay: .45s;
+}
+
+.animation-bar:nth-child(10) {
+  -webkit-animation-delay: .50s;
+          animation-delay: .50s;
+}
+
+.animation-bar:nth-child(11) {
+  -webkit-animation-delay: .55s;
+          animation-delay: .55s;
+}
+
+.animation-bar:nth-child(12) {
+  -webkit-animation-delay: .65s;
+          animation-delay: .65s;
+}
+
+.animation-bar-short {
+  height: 1rem;
+}
+
+@media (min-width: 550px) {
+  .animation-bar-short {
+    height: 1.5rem;
+  }
+}
+
+.animation-bar-medium {
+  height: 3rem;
+}
+
+@media (min-width: 550px) {
+  .animation-bar-medium {
+    height: 4.5rem;
+  }
+}
+
+.animation-bar-long {
+  height: 5rem;
+}
+
+@media (min-width: 550px) {
+  .animation-bar-long {
+    height: 7.5rem;
+  }
 }
 
 .header {
@@ -342,6 +570,7 @@ ul {
 }
 
 .restaurants {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

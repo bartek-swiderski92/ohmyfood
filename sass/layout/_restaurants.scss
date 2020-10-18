@@ -1,4 +1,5 @@
 .restaurants {
+    position: relative;
     @include section-flex(column);
     height: 123rem;
     padding: 5rem 2rem;
@@ -7,9 +8,22 @@
 
     &__header {
         margin-bottom: 3rem;
+
     }
 
-    &__load-animation {}
+    // &__load-animation {
+    //     position: absolute;
+    //     top: 50%;
+    //     left: 50%;
+    //     transition: 3s linear;
+    //     // transform: translate(-50%, -50%) rotate(0) scale(5);
+    //     opacity: 1;
+    //     z-index: 1;
+
+    //     &:hover {
+    //         transform: translate(-50%, -50%) rotate(1800deg) scale(5);
+    //     }
+    // }
 
     @media(min-width: 550px) {
         height: 70rem;
