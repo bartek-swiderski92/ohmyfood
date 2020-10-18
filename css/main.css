@@ -1074,6 +1074,9 @@ ul {
 .course__dish-name {
   font-size: 1.8rem;
   margin-bottom: .3rem;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset;
 }
 
 .course__dish-details {

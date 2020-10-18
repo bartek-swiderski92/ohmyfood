@@ -144,7 +144,6 @@
             }
         }
 
-
         &:hover .course__dish-price {
             margin-right: 6rem;
         }
@@ -163,6 +162,9 @@
     &__dish-name {
         font-size: 1.8rem;
         margin-bottom: .3rem;
+        white-space: normal;
+        overflow: unset;
+        text-overflow: unset
     }
 
     // wraping over to the next line
@@ -182,6 +184,7 @@
         justify-self: flex-end;
         transition: .5s;
         height: 100%;
+
     }
 
     &__dish-added {
