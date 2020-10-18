@@ -1,13 +1,15 @@
 // utils
-@import "./utils/_mixins.scss";
-@import "./utils/_variables.scss";
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./utils/animations";
 
 // base 
-@import "./base/_base.scss";
+@import "./base/base";
 
 // components 
 @import "./component/button";
 @import "./component/heart";
+@import "./component/animation-bar";
 
 // layout 
 @import "./layout/header";
