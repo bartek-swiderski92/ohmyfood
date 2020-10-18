@@ -654,6 +654,27 @@ ul {
   margin-bottom: 2rem;
   border-radius: 2rem;
   background-color: #fff;
+  animation: opacity .4s 3s 1 linear backwards reverse;
+}
+
+.restaurants__restaurant:nth-child(1) {
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
+}
+
+.restaurants__restaurant:nth-child(2) {
+  -webkit-animation-delay: 3.6s;
+          animation-delay: 3.6s;
+}
+
+.restaurants__restaurant:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.restaurants__restaurant:nth-child(4) {
+  -webkit-animation-delay: 4.4s;
+          animation-delay: 4.4s;
 }
 
 @media (min-width: 550px) {
