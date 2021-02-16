@@ -9,6 +9,11 @@
 ## Practical project demonstrating intermediate HTML and CSS Skills. No javaScript.
 A multi page, mobile-focused responsive website. The website benefits from intermediate animations, simulating loading times and creating pleasant user experience. 
 
+### The project reviews following skills:
+* Develops a navigation structure for a website
+* Implements design effects using CSS & Sass
+* Ensures design consistency on a website
+
 ### Technologies Used:
 * HTML
 * CSS
