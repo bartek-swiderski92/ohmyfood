@@ -25,5 +25,5 @@ A multi page, mobile-focused responsive website. The website benefits from inter
 
 ### [The mock-ups](https://github.com/phos23/BartoszSwiderski_3_10152020_A/tree/main/mock-ups) available in the repository.
 <br>
-<a href="https://phos23.github.io/BartoszSwiderski_3_10152020_A/">Click here to see the preview of the website</a>
+<a href="https://bartek-swiderski92.github.io/ohmyfood/">Click here to see the preview of the website</a>
 
