@@ -3,7 +3,7 @@
 ## **Integrate a mobile website with animations in CSS**
 <br>
 
-[![image](https://github.com/bartek-swiderski92/ohmyfood/blob/main/assets/logo/ohmyfood_bg.png?raw=true)
+![image](https://github.com/bartek-swiderski92/ohmyfood/blob/main/assets/logo/ohmyfood_bg.png?raw=true)
 <br> 
 
 ## Practical project demonstrating intermediate HTML and CSS Skills. No javaScript.
