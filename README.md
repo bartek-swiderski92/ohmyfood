@@ -8,11 +8,11 @@
 <div>
         <div> Mobile: 
                 <br>
-<img width="45%" src="https://github.com/bartek-swiderski92/ohmyfood/blob/main/snips/ohmyfood-desktop.png?raw=true" />&nbsp;&nbsp;
+<img width="45%" src="https://github.com/bartek-swiderski92/ohmyfood/blob/main/snips/ohmyfood-mobile.png?raw=true" />&nbsp;&nbsp;
         </div>
         <div> Desktop:  
                 <br>
-<img width="45%" src="https://github.com/bartek-swiderski92/ohmyfood/blob/main/snips/ohmyfood-mobile.png?raw=true" />&nbsp;&nbsp;
+<img width="45%" src="https://github.com/bartek-swiderski92/ohmyfood/blob/main/snips/ohmyfood-desktop.png?raw=true" />&nbsp;&nbsp;
         </div>
 </div>
 
