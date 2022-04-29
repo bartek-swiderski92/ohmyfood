@@ -5,6 +5,17 @@
 
 ![image](https://github.com/bartek-swiderski92/ohmyfood/blob/main/assets/logo/ohmyfood_bg.png?raw=true)
 <br> 
+<div>
+        <div> Mobile: 
+                <br>
+<img width="45%" src="https://github.com/bartek-swiderski92/ohmyfood/blob/main/snips/ohmyfood-desktop.png?raw=true" />&nbsp;&nbsp;
+        </div>
+        <div> Desktop:  
+                <br>
+<img width="45%" src="https://github.com/bartek-swiderski92/ohmyfood/blob/main/snips/ohmyfood-mobile.png?raw=true" />&nbsp;&nbsp;
+        </div>
+</div>
+
 
 ## Practical project demonstrating intermediate HTML and CSS Skills. No javaScript.
 A multi page, mobile-focused responsive website. The website benefits from intermediate animations, simulating loading times and creating pleasant user experience. 
