@@ -1,4 +1,4 @@
-# **Third project in Web Developer path on OpenClassrooms** 
+# **ohmyfood** 
 
 ## **Integrate a mobile website with animations in CSS**
 <br>
