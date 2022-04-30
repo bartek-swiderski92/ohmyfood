@@ -1,10 +1,19 @@
-# **ohmyfood** 
+![image](https://github.com/bartek-swiderski92/ohmyfood/blob/main/assets/logo/ohmyfood_bg.png?raw=true)
+<br> 
+## Practical project demonstrating intermediate HTML and CSS Skills. No javaScript.
+<img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/CSS3-1572B6?&style=for-the-badge&logo=css3&logoColor=white" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/sass%20-%23cc6699.svg?&style=for-the-badge&logo=sass&logoColor=white" />&nbsp;&nbsp;
+
+A multi page, mobile-focused responsive website. The website benefits from intermediate animations, simulating loading times and creating pleasant user experience. 
+
+SASS built with
+* 7-1 SASS file system
+* BEM methodology 
 
 ## **Integrate a mobile website with animations in CSS**
 <br>
 
-![image](https://github.com/bartek-swiderski92/ohmyfood/blob/main/assets/logo/ohmyfood_bg.png?raw=true)
-<br> 
 <div>
         <div> Mobile: 
                 <br>
@@ -17,22 +26,11 @@
 </div>
 
 
-## Practical project demonstrating intermediate HTML and CSS Skills. No javaScript.
-A multi page, mobile-focused responsive website. The website benefits from intermediate animations, simulating loading times and creating pleasant user experience. 
 
 ### The project reviews following skills:
 * Develops a navigation structure for a website
 * Implements design effects using CSS & Sass
 * Ensures design consistency on a website
-
-### Technologies Used:
-<img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/CSS3-1572B6?&style=for-the-badge&logo=css3&logoColor=white" />&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/sass%20-%23cc6699.svg?&style=for-the-badge&logo=sass&logoColor=white" />&nbsp;&nbsp;
-
-SASSbuilt with
-* 7-1 SASS file system
-* BEM methodology 
 
 ### This website has been created according to [stated project requirements.](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Web%20Developer%20P3/Creative%20Brief%20-%20Ohmyfood!.pdf)
 
